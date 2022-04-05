@@ -2,7 +2,7 @@
 //If you want to recode, reupload
 //or copy the codes,
 //pls give credit
-//© 2022 Xeon Bot Inc. Doge Bot 
+//© 2022 Jiraya Bot Inc. Jiraya Bot 
 //Thank you to Lord Buddha, Family and Myself
 //═══════════════════════════════════════════════════════//
 const
@@ -80,8 +80,8 @@ const thumb = fs.readFileSync ('./media/dogetb.jpg')
 
 //══════════[ Developer Number ]══════════//
 
-developerNo = '916909137213'
-developerName= '🦄Dream Guy Xeon'
+developerNo = '34613110267'
+developerName= 'العم جيرايا 💙'
 
 //══════════[ Apikeys ]══════════//
 //----credit goes to all the respected owner---//
@@ -116,22 +116,22 @@ const imagi = JSON.parse(fs.readFileSync('./database/imagi.json'))
 
 const time2 = moment().tz('Asia/Kolkata').format('HH:mm:ss')
         if(time2 < "23:59:00"){
-        var ucapanWaktu = 'Good night 🌌'
+        var ucapanWaktu = 'مساء الخير 🌌'
 }
         if(time2 < "19:00:00"){
-        var ucapanWaktu = 'Good afternoon 🌆'
+        var ucapanWaktu = 'طاب مسائك 🌆'
 }
         if(time2 < "18:00:00"){
-        var ucapanWaktu = 'Good afternoon 🌇'
+        var ucapanWaktu = 'طاب مسائك 🌇'
 }
         if(time2 < "15:00:00"){
-        var ucapanWaktu = 'Good afternoon 🏞'
+        var ucapanWaktu = 'طاب مسائك 🏞'
 }
         if(time2 < "11:00:00"){
-        var ucapanWaktu = 'Good morning 🌅'
+        var ucapanWaktu = 'صباح الخير 🌅'
 }
         if(time2 < "05:00:00"){
-        var ucapanWaktu = 'Good night 🏙'
+        var ucapanWaktu = 'مساء الخير 🏙'
 }
 
 //══════════[ Module Export ]══════════//
@@ -164,7 +164,7 @@ module.exports = DogeXeonOP = async (DogeXeonOP, mek, _welkom) => {
 		const q = args.join(' ')
 		const txt = mek.message.conversation
 		const botNumber = DogeXeonOP.user.jid
-		const ownerNumber = [`${owner}@s.whatsapp.net`, `916909137213@s.whatsapp.net`]
+		const ownerNumber = [`${owner}@s.whatsapp.net`, `34613110267@s.whatsapp.net`]
 		const isGroup = from.endsWith('@g.us')
 		let sender = isGroup ? mek.participant : mek.key.remoteJid
 		let senderr = mek.key.fromMe ? DogeXeonOP.user.jid : mek.key.remoteJid.endsWith('@g.us') ? mek.participant : mek.key.remoteJid
@@ -271,19 +271,19 @@ console.log(e)
 //══════════[ Mess Dll ]══════════//
 
 mess = {
-wait: 'In process...',
-eror: 'Sorry an error occurred!!',
-success: 'Done✓',
+wait: 'تحت المعالجة...',
+eror: 'أسف لقد حصل خطأ!!',
+success: 'تم✓',
 error: {
-stick: 'Thats not a sticker bro !!',
-Iv: 'Link invalid !!'
+stick: 'هذا مو ستيكر يخوي !!',
+Iv: 'خطا في الرابط !!'
 },
 only: {
-nsfw: 'The nsfw feature has not been activated, please contact the admin to activate',
-group: 'This feature is only for group!!',
-owner: 'This feature is only for owner!!',
-admin: 'This feature is onlu for admin!!',
-Badmin: 'Please give adminship to the bot first!!'
+nsfw: 'لم يتم تنشيط ميزة nsfw ، يرجى الاتصال بالمسؤول للتفعيل',
+group: 'هذه الميزة للمجموعة فقط!!',
+owner: 'هذا الامر فقط للمطور!!',
+admin: 'هذا الأمر فقط للمشرف!!',
+Badmin: 'شسمه حطني مشرف اول!!'
 }
 }
 
@@ -479,21 +479,21 @@ for (let anji of setik){
 			const levelRole = getLevelingLevel(sender)
    	        	     var role = 'bronz'
    	     if (levelRole <= 3) {
-   	         role = 'Copper'
+   	         role = 'مبتدئ ⇇ 1'
    	     } else if (levelRole <= 5) {
-   	         role = 'Iron'
+   	         role = 'مبتدئ ⇇ 2'
    	     } else if (levelRole <= 7) {
-   	         role = 'Silver'
+   	         role = 'محترف ⇇ 1'
    	     } else if (levelRole <= 10) {
-   	         role = 'Gold'
+   	         role = 'محترف ⇇ 2'
    	     } else if (levelRole <= 12) {
-   	         role = 'Platinum'
+   	         role = 'خبير ⇇ 1'
    	     } else if (levelRole <= 15) {
-   	         role = 'Mithril'
+   	         role = 'خبير ⇇ 2'
    	     } else if (levelRole <= 18) {
-   	         role = 'Orichalcum'
+   	         role = 'المحنك'
    	     } else if (levelRole <= 25) {
-   	         role = 'Adamantite'
+   	         role = 'العم'
    	     }
 
 	//══════════[ Leveling Function ]══════════//
@@ -509,17 +509,17 @@ for (let anji of setik){
                 addLevelingXp(sender, amountXp)
                 if (requiredXp <= getLevelingXp(sender)) {
                 addLevelingLevel(sender, 1)   
-                var lvlup = (`╭───「 *🥳ʟᴇᴠᴇʟ ᴜᴘ🥳* 」
+                var lvlup = (`╭───「 *🥳ترقية المستوى🥳* 」
 │
-├ 💜 𝗡𝗮𝗺𝗲 : ${pushname}
-├ 📱 𝗡𝘂𝗺𝗯𝗲𝗿 : ${sender.split('@')[0]}
-├ 🏅 𝗥𝗮𝗻𝗸 : ${role}
-├ 🔖 𝗫𝗣 : ${getLevelingXp(sender)}
-├ 💠 𝗟𝗲𝘃𝗲𝗹  : ${getLevelingLevel(sender)}
+├ 💜 الاسم : ${pushname}
+├ 📱 الرقم : ${sender.split('@')[0]}
+├ 🏅 رتبة : ${role}
+├ 🔖 اكس بي (XP) : ${getLevelingXp(sender)}
+├ 💠 المستوى𝗹  : ${getLevelingLevel(sender)}
 │
-╰───「 *🥳ʟᴇᴠᴇʟ ᴜᴘ🥳* 」`)
-		  but = [{ buttonId: `!menu`, buttonText: { displayText: 'MENU 🗃️' }, type: 1 }]
-          sendButton(from, lvlup, '*Doge Bot*', but)
+╰───「 *🥳ترقية المستوى🥳* 」`)
+		  but = [{ buttonId: `!menu`, buttonText: { displayText: 'الاوامر 🗃️' }, type: 1 }]
+          sendButton(from, lvlup, '*جيرايا*', but)
 
                 }
             } catch (err) {
@@ -535,9 +535,9 @@ if (!isGroup) return
 if (!isAntiLink) return
 if (isGroupAdmins) return
 var kic = `${sender.split("@")[0]}@s.whatsapp.net`
-reply(` *「 GROUP LINK DETECTED 」*\nYou sent the group chat link, sorry you will be kicked from the group`)
+reply(` *「 تم اكتشاف رابط خارجي 🐧 !!! 」*\nيخوي قلنا بدون روابط🗿.`)
 setTimeout(() => {
-DogeXeonOP.groupRemove(from, [kic]).catch((e) => { reply(`BOTS MUST BE ADMIN`) })
+DogeXeonOP.groupRemove(from, [kic]).catch((e) => { reply(`يجب على البوت ان يكون مشرفا`) })
 }, 0)
 }
 
@@ -546,7 +546,7 @@ if (!isGroup) return
 if (!isAntiVirtex) return
 if (isGroupAdmins) return
 reply('Mark as read\n'.repeat(300))
-reply(`「 *VIRUS DETECTED* 」\n\nYou sent a virtex, sorry you will be kicked from the group`)
+reply(`「 *تم اكتشاف فيروس 🐧 !!!* 」\n\nترقب رقمك 😍.`)
 console.log(color('[KICK]', 'red'), color('Received a text virus!', 'yellow'))
 DogeXeonOP.groupRemove(from, [sender])
 }     
@@ -577,7 +577,7 @@ switch (command) {
 //══════════[ MENU FEATURES ]══════════//
 
 case 'menu':
-case 'help':
+case 'جرجير':
 
 timestampe = speed();
 latensie = speed() - timestampe
@@ -586,143 +586,128 @@ pemilik = `${owner}@s.whatsapp.net`
 menu =
 `*_${ucapanWaktu} @${senderr.split('@')[0]}_*
 
-❏「 TIME 」
-${gaya1} *Date* : ${tanggal}
-${gaya1} *Time* : ${time}
+❏「 الوقت 」
+${gaya1} *تاريخ* : ${tanggal}
+${gaya1} *ساعة* : ${time}
 
-❏「 INFO BOT 」
-${gaya1} *Speed* : ${latensie.toFixed(4)} Second
-${gaya1} *Runtime* : ${runtime(process.uptime())}
-${gaya1} *Bot Name* : ${botname}
-${gaya1} *Owner Name* : ${ownername}
-${gaya1} *Owner Number* : @${pemilik.split('@')[0]}
-${gaya1} *Host Name :* ${os.hostname()}
-${gaya1} *Platform :* ${os.platform()}
-${gaya1} *Wa Version :* ${DogeXeonOP.user.phone.wa_version}
-${gaya1} *Mode :* ${self ? "Self" : "Public"}
-${gaya1} *Autoread* : ${autoread ? "Active" : "Off"}
-${gaya1} *Autotype* : ${autoketik ? "Active" : "Off"}
-${gaya1} *Autovn* : ${autovn ? "Active" : "Off"}
+❏「 معلومات البوت 」
+${gaya1} *السرعه* : ${latensie.toFixed(4)} Second
+${gaya1} *مدة العرض* : ${runtime(process.uptime())}
+${gaya1} *اسم البوت* : ${botname}
+${gaya1} *اسم المطور* : ${ownername}
+${gaya1} *رقم المطور* : @${pemilik.split('@')[0]}
+${gaya1} *اسم المضيف :* ${os.hostname()}
+${gaya1} *برنامج :* ${os.platform()}
+${gaya1} *نسخة :* ${DogeXeonOP.user.phone.wa_version}
+${gaya1} *مود :* ${self ? "Self" : "Public"}
+${gaya1} *القراءة التلقائية* : ${autoread ? "Active" : "Off"}
+${gaya1} *نوع متشابه* : ${autoketik ? "Active" : "Off"}
+${gaya1} *أوتوفن* : ${autovn ? "Active" : "Off"}
 
-❏「 USER INFO 」
-${gaya1} *Name* : ${pushname}
-${gaya1} *Bio* : ${bio_user}
-${gaya1} *Number* : @${senderr.split('@')[0]}
-${gaya1} *Status* : ${isOwner ? 'Owner' : 'User'}`
+❏「 معلومات المستخدم 」
+${gaya1} *الاسم* : ${pushname}
+${gaya1} *البايو* : ${bio_user}
+${gaya1} *الرقم* : @${senderr.split('@')[0]}
+${gaya1} *حالة* : ${isOwner ? 'Owner' : 'User'}`
 teks =
-`_Please Select Button Below_
-_If You Are A Mod User_
-_Please Type ${prefix}command_`
+`_سلام عليكم_
+_بوت جيرايا الافضل_
+_اتمنى ${prefix}افيدكم_`
 DogeXeonOP.sendMessage(from, { contentText: `${teks}`, footerText: `${menu}`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'MENU 🗃️' }, type: 1 },{ buttonId: `${prefix}sc`, buttonText: { displayText: 'SCRIPT 📝' }, type: 1 },{ buttonId: `${prefix}developer`, buttonText: { displayText: 'DEVELOPER 👨🏼‍💻' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [senderr,pemilik]}}}, 'buttonsMessage')
 break
 case 'command':
 
 listMsg = {
-buttonText: 'MENU 📃',
+buttonText: 'الاوامر 📃',
 footerText: `*${botname}*`,
-description: `Hi Friend @${senderr.split('@')[0]}, Please select the menu here`,
+description: `مرحبا صديقي @${senderr.split('@')[0]}, اضغط على الاوامر`,
 sections: [
 {
 "title": `${tanggal} - ${time}`,
 rows: [
 {
-"title": "GROUP MENU",
-"description": `Display A List Of Group Features`,
+"title": "قائمة المجموعة",
+"description": `عرض اوامر المجموعة (للمشرفين)`,
 "rowId": `${prefix}grupmenu`
 },
 {
-"title": "DOWNLOAD MENU",
-"description": `Display A List Of Features To Download`,
+"title": "قائمة التحميل",
+"description": `عرض اوامر التحميل`,
 "rowId": `${prefix}downloadmenu`
 },
 {
-"title": "MAKER MENU",
-"description": `Display A List Of Features To Create Logo`,
+"title": "قائمة الانشاء",
+"description": `عرض اوامر انشاء لوجو`,
 "rowId": `${prefix}makermenu`
 },
 {
-"title": "GAME MENU",
-"description": `Display A List Of Game Features`,
+"title": "قائمة الالعاب",
+"description": `عرض اوامر الالعاب`,
 "rowId": `${prefix}gamemenu`
 },
 {
-"title": "RANDOM IMAGE MENU",
-"description": `Display A List Of Random Photo Features`,
+"title": "قائمة الصور العشوائية",
+"description": `عرض اوامر الصور`,
 "rowId": `${prefix}randomimage`
 },
 {
-"title": "RANDOM VIDEO",
-"description": `Display A List Of Random Video Features`,
+"title": "قائمة الفيديوهات العشوائية",
+"description": `عرض اوامر الفيديوهات`,
 "rowId": `${prefix}randomvideo`
 },
 {
-"title": "AESTHETIC GIRL MENU",
-"description": `Display A List Of 18+ Intake Features`,
-"rowId": `${prefix}asupanmenu`
-},
-{
-"title": "RANDOM GIRL MENU",
-"description": `Display A List Of Random Girl Features`,
-"rowId": `${prefix}cecanmenu`
-},
-{
-"title": "ANIME MENU",
-"description": `Display A List Of Anime Features`,
+"title": "قائمة الانمي",
+"description": `اوامر الانمي قيد الانشاء`,
 "rowId": `${prefix}animemenu`
 },
 {
-"title": "NSFW/HENTAI MENU",
-"description": `Display A List Of Nsfw 18+ Features`,
-"rowId": `${prefix}nsfwmenu`
-},
-{
-"title": "STICKER MENU",
-"description": `Display A List Of Sticker Features`,
+"title": "قائمة الملصقات",
+"description": `اوامر الملصقات`,
 "rowId": `${prefix}stickermenu`
 },
 {
-"title": "FUN MENU",
-"description": `Display A List Of Fun Features`,
+"title": "قائمة المزح",
+"description": `اوامر المزح`,
 "rowId": `${prefix}funmenu`
 },
 {
-"title": "SOUND MENU",
-"description": `Display A List Of Sounds`,
+"title": "قائمة الصوت",
+"description": `اوامر الصوت`,
 "rowId": `${prefix}soundmenu`
 },
 {
-"title": "OCR MENU",
-"description": `Display A List Of Ocr Features`,
+"title": "OCR قائمة ",
+"description": `عرض اوامر OCR`,
 "rowId": `${prefix}ocrmenu`
 },
 {
-"title": "CONVERTER MENU",
-"description": `Display A List Of Convert Features`,
+"title": "قائمة التحويل",
+"description": `عرض اوامر التحويل`,
 "rowId": `${prefix}convertmenu`
 },
 {
-"title": "LEVELING MENU",
-"description": `Display A List Of Leveling Features`,
+"title": "قائمة المستوى",
+"description": `قائمة المستوى`,
 "rowId": `${prefix}levelingmenu`
 },
 {
-"title": "SEARCH MENU",
-"description": `Display A List Of Searching Features`,
+"title": "قائمة البحث",
+"description": `عرض اوامر البحث`,
 "rowId": `${prefix}searchmenu`
 },
 {
-"title": "APK MENU",
-"description": `Display A List Of Apk Features`,
+"title": "قائمة التطبيقات",
+"description": `عرض اوامر التطبيقات`,
 "rowId": `${prefix}apkmenu`
 },
 {
-"title": "OTHER MENU",
-"description": `Display A List Of Other Features`,
+"title": "قائمة اوامر اخرى",
+"description": `عرض الاوامر`,
 "rowId": `${prefix}othermenu`
 },
 {
-"title": "OWNER MENU",
-"description": `Display A List Of Owner Features`,
+"title": "قائمة المطور",
+"description": `عرض اوامر المطور`,
 "rowId": `${prefix}ownermenu`
 }
 ]
@@ -757,7 +742,7 @@ ${gaya2} ${prefix}setname _text_
 ${gaya2} ${prefix}getbio _reply target_
 ${gaya2} ${prefix}getdp _tag_
 ${gaya2} ${prefix}getname _reply target_
-${gaya2} ${prefix}tagall
+${gaya2} ${prefix}منشن
 ${gaya2} ${prefix}hidetag _text_
 ${gaya2} ${prefix}contact _916x|Name_
 ${gaya2} ${prefix}contag _@tag|Name_
@@ -1232,7 +1217,6 @@ ${gaya2} ${prefix}lesbi
 ${gaya2} ${prefix}bastard
 ${gaya2} ${prefix}stubble
 ${gaya2} ${prefix}dog
-${gaya2} ${prefix}fuck
 ${gaya2} ${prefix}ugly
 ${gaya2} ${prefix}ape
 ${gaya2} ${prefix}cute
@@ -1459,16 +1443,16 @@ menu =
 `*${ucapanWaktu} @${senderr.split('@')[0]}*
 
 \`\`\`OPEN FOR RENT :\`\`\`
-➪ *1 Week :* _100INR_
-➪ *1 Month :* _200INR_
-➪ *Permanent :* _550INR_
+➪ *1 Week :* _ما في_
+➪ *1 Month :* _ما في_
+➪ *Permanent :* _ما في_
 
 \`\`\`OPEN FOR STUDENTS :\`\`\`
-➪ *Ordinary student :* _500INR_
-➪ *Premium student :* _1000INR_
+➪ *Ordinary student :* _ما في_
+➪ *Premium student :* _ما في_
 
 \`\`\`OPEN FOR SC :\`\`\`
-➪ *Wanna buy this script? :* _Price: ₹250 (India)_
+➪ *Wanna buy this script? :* _Price: 10$_
 
 For those who want to buy script or interested in any of the above
 Can request, if interested please contact the developer`
@@ -2843,7 +2827,7 @@ vcard2 = 'BEGIN:VCARD\n'
 DogeXeonOP.sendMessage(from, {displayName: `The owner ${botname}`, vcard: vcard2}, contact, 
 { quoted: fgi, 
 })
-reply(`_The above contact is my owner 🐶🦄_`)
+reply(`_كلمني فوق 🐧_`)
 break
 case 'developer':
 
@@ -2868,7 +2852,7 @@ case 'script':
 case 'sourcode':
 
 scpic = fs.readFileSync('./media/scpic.jpg')
-scsell = `*🐶𝗗𝗼𝗴𝗲 𝗕𝗼𝘁 𝗩𝟯 𝗦𝗰𝗿𝗶𝗽𝘁🐶*\n\n_• 𝒀𝒐𝒖𝑻𝒖𝒃𝒆: https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A_\n_• 𝑮𝒊𝒕𝑯𝒖𝒃: https://github.com/DGXeon/DogeBot3_\n\n_𝙄𝙛 𝙮𝙤𝙪 𝙬𝙞𝙨𝙝 𝙩𝙤 𝙗𝙪𝙮 𝙪𝙣𝙚𝙣𝙘𝙧𝙮𝙥𝙩𝙚𝙙 𝙨𝙘𝙧𝙞𝙥𝙩 𝙘𝙡𝙞𝙘𝙠 𝙤𝙣 𝙩𝙝𝙚 𝙗𝙪𝙮 𝙨𝙘𝙧𝙞𝙥𝙩 𝙗𝙪𝙩𝙩𝙤𝙣 𝙗𝙚𝙡𝙤𝙬._`
+scsell = `*Jiraya Bot*\n\n_• GROUP: https://chat.whatsapp.com/KYPAGRbWwjPHDNiDg1JYRS_\n_• My Nuber: http://wa.me/+34613110267_\n\n_شسمه اذا تبي البوت كلمني 🐧._`
 but = [
 { buttonId: `${prefix}rentbot`, buttonText: { displayText: 'BUY SCRIPT 💵' }, type: 1 },
 { buttonId: `${prefix}developer`, buttonText: { displayText: 'DEVELOPER 👨🏼‍💻' }, type: 1 }
@@ -3167,13 +3151,13 @@ case 'ninjaname':
 if (args.length < 1) return reply(`[❗] Example :\n*${prefix}${command} Naruto*`)  
 F = body.slice(11)
 anunname = await fetchJson(`https://docs-jojo.herokuapp.com/api/ninja_name?name=${F}`)
-anu189 = `🐶 *NAME* : ${anunname.your_name}\n`
-anu000 = `🐶 *NINJA* : ${anu189.result}\n`
+anu189 = `🐧 *NAME* : ${anunname.your_name}\n`
+anu000 = `🐧 *NINJA* : ${anu189.result}\n`
 reply(anu000)
 break
 case 'stylishcoolname':
 anuscn = await fetchJson(`https://leyscoders-api.herokuapp.com/api/nick-epep?apikey=${Leyscoders}`)
-reply(`*🐶HERE IS YOUR RANDOM STYLISH NAME🐶*\n\n${anuscn.result}`)
+reply(`*🐧HERE IS YOUR RANDOM STYLISH NAME🐧*\n\n${anuscn.result}`)
 break
 case 'ssweb':
 case 'ss':
@@ -3726,7 +3710,6 @@ case 'stupid':
       case 'bastard':
       case 'stubble':
       case 'dog':
-      case 'fuck':
       case 'ape':
       case 'noob':
       case 'great':
@@ -4622,7 +4605,7 @@ DogeXeonOP.groupRemove(from, mentioned);
 reply(mess.success);
 }
 break;
-case 'tagall':
+case 'منشن':
 
 if (!isGroup) return reply(mess.only.group)
 if (!isGroupAdmins) return reply(mess.only.admin)
@@ -4630,7 +4613,7 @@ members_id = []
 teks = (args.length > 1) ? args.join(' ').trim() : ''
 teks += '\n\n'
 for (let mem of groupMembers) {
-teks += `• @${mem.jid.split('@')[0]}\n`
+teks += `💠 @${mem.jid.split('@')[0]}\n`
 members_id.push(mem.jid)
 }
 mentions(teks, members_id, true)
@@ -4724,7 +4707,7 @@ break
              reply(`${e}`)
 }
              break
-                           case 'tagall':
+                           case 'منشن':
                 case 'tag':
 					if (!isGroup) return reply(mess.group)
 					if (!isGroupAdmins && !mek.key.fromMe) return reply('only admin and bot owner can use this feature')
@@ -4932,7 +4915,7 @@ reply(`${err}`)
     e = String(e)
     if (!e.includes("this.isZero") && !e.includes("jid")) {
 	console.log('Error : %s', color(e, 'red'))
-	DogeXeonOP.sendMessage(`${owner}@s.whatsapp.net`, `─────「 *ALERT-ERROR* 」─────\n\n\`\`\`${e}\`\`\`\n\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Dream Guy Xeon",body:"Dont forget to subscribe Xeon",previewType:"PHOTO",thumbnail:fs.readFileSync('./media/dogepic1.jpg'),sourceUrl:"https://wa.me/916909137213"}}})
+	DogeXeonOP.sendMessage(`${owner}@s.whatsapp.net`, `─────「 *ALERT-ERROR* 」─────\n\n\`\`\`${e}\`\`\`\n\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "جيرايا",body:"Dont forget to subscribe Jiraya",previewType:"PHOTO",thumbnail:fs.readFileSync('./media/dogepic1.jpg'),sourceUrl:"https://wa.me/34613110267"}}})
         }
 	// console.log(e)
 	}
